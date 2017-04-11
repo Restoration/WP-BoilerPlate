@@ -1,10 +1,10 @@
 <?php
 /**
- * The template for displaying Taxonomy pages.
+ * The template for displaying 404 pages (Not Found)
  *
  *
- * @subpackage FreeTpl
- * @since FreeTpl 1.0
+ * @subpackage WhiteTemplate
+ * @since WhiteTemplate 1.0
  */
 get_header(); ?>
 
@@ -12,7 +12,7 @@ get_header(); ?>
 
 		<?php if ( have_posts() ) : ?>
 
-			<h1 id="resultTitle"><?php echo $s ?>Archives</h1>
+			<h1 id="resultTitle">404エラー</h1>
 
 			<?php while ( have_posts() ) : the_post(); ?>
 				<?php get_template_part( 'content','post' ); ?>

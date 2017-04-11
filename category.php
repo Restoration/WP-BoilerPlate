@@ -1,10 +1,10 @@
 <?php
 /**
- * The template for displaying Author archive pages
+ * The template for displaying Category pages
  *
  *
- * @subpackage FreeTpl
- * @since FreeTpl 1.0
+ * @subpackage WhiteTemplate
+ * @since WhiteTemplate 1.0
  */
 get_header(); ?>
 
@@ -12,7 +12,12 @@ get_header(); ?>
 
 		<?php if ( have_posts() ) : ?>
 
-			<h1 id="resultTitle">Posted by<?php the_author_nickname(); ?></h1>
+			<h1 id="resultTitle">CategoryArchives：<?php  single_cat_title(); ?></h1>
+
+				<?php if ( category_description() ) : ?>
+				<div id="archiveMeta"><?php echo category_description(); ?></div>
+				<?php endif; ?>
+
 
 			<?php while ( have_posts() ) : the_post(); ?>
 				<?php get_template_part( 'content','post' ); ?>
@@ -22,7 +27,7 @@ get_header(); ?>
 			<?php get_template_part( 'content', 'none' ); ?>
 		<?php endif; ?>
 
-		</div><!-- /#main -->
+	</div><!-- #main -->
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

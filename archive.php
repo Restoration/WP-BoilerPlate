@@ -3,8 +3,8 @@
  * The template for displaying Archive pages
  *
  *
- * @subpackage FreeTpl
- * @since FreeTpl 1.0
+ * @subpackage WhiteTemplate
+ * @since WhiteTemplate 1.0
  */
 get_header(); ?>
 

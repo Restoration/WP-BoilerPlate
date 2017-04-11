@@ -3,8 +3,8 @@
  * The sidebar containing the widget area
  *
  *
- * @subpackage FreeTpl
- * @since FreeTpl 1.0
+ * @subpackage WhiteTemplate
+ * @since WhiteTemplate 1.0
  */
 ?>
 <div id="sidebar">

@@ -1,10 +1,10 @@
 <?php
 /**
- * The template for displaying Tag pages
+ * The template for displaying Taxonomy pages.
  *
  *
- * @subpackage FreeTpl
- * @since FreeTpl 1.0
+ * @subpackage WhiteTemplate
+ * @since WhiteTemplate 1.0
  */
 get_header(); ?>
 
@@ -12,12 +12,7 @@ get_header(); ?>
 
 		<?php if ( have_posts() ) : ?>
 
-			<h1 id="resultTitle">TagArchives：<?php  single_cat_title(); ?></h1>
-
-				<?php if ( tag_description() ) : ?>
-					<div id="archiveMeta"><?php echo tag_description(); ?></div>
-				<?php endif; ?>
-
+			<h1 id="resultTitle"><?php echo $s ?>Archives</h1>
 
 			<?php while ( have_posts() ) : the_post(); ?>
 				<?php get_template_part( 'content','post' ); ?>
@@ -27,7 +22,7 @@ get_header(); ?>
 			<?php get_template_part( 'content', 'none' ); ?>
 		<?php endif; ?>
 
-	</div><!-- /#main -->
+	</div><!-- #main -->
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

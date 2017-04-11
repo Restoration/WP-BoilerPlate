@@ -1,10 +1,10 @@
 <?php
 /**
- * The template for displaying all pages
+ * The template for displaying all single posts
  *
  *
- * @subpackage FreeTpl
- * @since FreeTpl 1.0
+ * @subpackage WhiteTemplate
+ * @since WhiteTemplate 1.0
  */
 get_header(); ?>
 

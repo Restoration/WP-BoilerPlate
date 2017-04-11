@@ -1,30 +1,45 @@
---------------------------------------------------------------------------
-#FreeTpl
+WhiteTemplate
+====
 
-When building the original WordPress theme, a template you use for base
---------------------------------------------------------------------------
-#MIT LICENSE
+Overview
+This is my backbone WordPress Theme.
+2column design.
 
-Copyright (c) 2016 RyotArch
-https://github.com/Restoration
 
-Permission is hereby granted, free of charge, to any person obtaining a 
-copy of this software and associated documentation files (the 
-"Software"), to deal in the Software without restriction, including 
-without limitation the rights to use, copy, modify, merge, publish, 
-distribute, sublicense, and/or sell copies of the Software, and to 
-permit persons to whom the Software is furnished to do so, subject to 
-the following conditions:
+## Description
+When building the original WordPress theme, a template you use for base.
 
-The above copyright notice and this permission notice shall be 
-included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, 
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF 
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND 
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE 
-LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION 
-OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION 
-WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+## Requirement
+[WordPress](https://wordpress.org/)
 
--------------------------------------------------------------------------- 
+
+## Install
+Clone the repository and install 
+
+```
+$ cd my-wordpress-folder/wp-content/themes/
+$ git clone https://github.com/Restoration/WP-WhiteTemplate.git
+```
+
+## Usage
+This theme to set up for setting page.
+
+## Contribution
+
+1. Fork it (https://github.com/Restoration/WP-DeepBlue/fork)
+1. Create your feature branch (git checkout -b my-new-feature)
+1. Commit your changes (git commit -am 'Add some feature')
+1. Push to the branch (git push origin my-new-feature)
+1. Create new Pull Request
+
+
+## Licence
+
+[MIT](https://github.com/Restoration/WhiteTemplate/blob/master/README.md)
+
+## Author
+
+[RyotArch](https://github.com/Restoration)
+
+0

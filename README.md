@@ -2,7 +2,7 @@ WhiteTemplate
 ====
 
 Overview
-This is my backbone WordPress Theme.
+This is my backbone WordPress Theme.  
 2column design.
 
 
@@ -25,14 +25,6 @@ $ git clone https://github.com/Restoration/WP-WhiteTemplate.git
 ## Usage
 This theme to set up for setting page.
 
-## Contribution
-
-1. Fork it (https://github.com/Restoration/WP-DeepBlue/fork)
-1. Create your feature branch (git checkout -b my-new-feature)
-1. Commit your changes (git commit -am 'Add some feature')
-1. Push to the branch (git push origin my-new-feature)
-1. Create new Pull Request
-
 
 ## Licence
 
@@ -41,5 +33,3 @@ This theme to set up for setting page.
 ## Author
 
 [RyotArch](https://github.com/Restoration)
-
-0
